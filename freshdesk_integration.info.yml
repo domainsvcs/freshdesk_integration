@@ -1,0 +1,7 @@
+name: 'Freshdesk Integration for Drupal 8'
+type: module
+description: 'Provides Freshdesk Integration.'
+configure: freshdesk_integration.admin_settings_form
+core: 8.x
+dependencies:
+  - reroute_email
